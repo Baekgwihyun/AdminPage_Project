@@ -12,7 +12,7 @@ import java.util.Optional;
 
 public class UserRepositoryTest extends StudyApplicationTests {
     //Dependency Injection (DI)
-    @Autowired
+    @Autowired // 생성자 어노테이션
     private UserRepository userRepository;
 
     @Test
